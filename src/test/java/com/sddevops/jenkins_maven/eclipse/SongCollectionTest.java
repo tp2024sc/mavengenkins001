@@ -59,8 +59,8 @@ class SongCollectionTest {
 		s1 = new Song("001","good 4 u","Olivia Rodrigo",3.59);
 	
 		sc.addSong(s1);
-		//assertEquals(1,sc.getSongs().size());
-		fail("not implemented yt");
+		assertEquals(1,sc.getSongs().size());
+		//fail("not implemented yt");
 	}
 
 	/**
